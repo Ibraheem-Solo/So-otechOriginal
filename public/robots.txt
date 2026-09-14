@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solotechdigital.com/sitemap.xml

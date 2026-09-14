@@ -1,0 +1,116 @@
+Create a premium “Founder Section” for the Solotech Digital website with a modern split-layout design that feels elegant, personal, and globally competitive.
+
+The section should have:
+
+Founder photo on one side
+Text content on the opposite side
+Clean spacing
+Minimal luxury aesthetic
+Subtle animations
+Mobile responsive layout
+
+The overall feel should resemble a modern creative agency or tech startup website — premium, human-centered, and trustworthy.
+
+SECTION DESIGN
+
+Create a two-column layout:
+
+LEFT SIDE
+
+Display a professional founder portrait:
+
+Clean studio-style image
+Soft gradient or neutral background
+Rounded corners
+Soft shadow/glow
+Subtle hover animation
+Modern premium presentation
+
+Optional:
+
+Floating accent shapes
+Glassmorphism effects
+Soft purple/pink glow matching Solotech branding
+RIGHT SIDE
+
+Include clean typography hierarchy:
+
+Small label:
+
+“MEET THE FOUNDER”
+
+Main heading:
+
+“Building Digital Experiences With Purpose”
+
+Description:
+
+“Solotech Digital was founded with a vision to help businesses, brands, and organizations create meaningful digital presence through creativity, technology, and strategy.
+
+From websites and branding to multimedia storytelling, we focus on building digital experiences that are modern, impactful, and built for growth.”
+
+Founder Name:
+
+“Ibraheem Al Jatta”
+
+Founder Title:
+
+“Founder & Creative Director”
+
+Optional Quote:
+
+“We believe every brand deserves a digital presence that feels world-class.”
+
+Add a clean CTA button:
+👉 “Start a Project”
+
+DESIGN STYLE
+
+The section should feel:
+
+Premium
+Editorial
+Minimal
+Modern African tech aesthetic
+Confident but approachable
+
+Use:
+
+Large bold typography
+Elegant spacing
+Soft gradients
+Glassmorphism accents
+Smooth fade-in animations
+Subtle floating effects
+
+Color palette:
+
+White / off-white background
+Purple and pink accent gradients
+Dark typography
+Soft shadows
+ANIMATION REQUIREMENTS
+
+When the section enters viewport:
+
+Founder image smoothly fades and slides upward
+Text content animates sequentially
+Subtle glowing effect behind image
+Smooth hover effects on image and CTA button
+RESPONSIVENESS
+
+On mobile:
+
+Stack image above text
+Maintain premium spacing
+Keep typography readable and elegant
+IMPORTANT
+
+Do NOT make it feel:
+
+Like a corporate employee card
+Like a generic “About Me” section
+Overcrowded or overly colorful
+
+The section should feel like:
+👉 a high-end founder spotlight from a world-class creative agency website.

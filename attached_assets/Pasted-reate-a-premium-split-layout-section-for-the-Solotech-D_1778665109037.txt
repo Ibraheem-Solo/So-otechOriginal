@@ -1,0 +1,135 @@
+reate a premium split-layout section for the Solotech Digital website that combines:
+
+A “Who We Work With” / client focus section
+A founder spotlight/profile section
+
+Both sections should sit side-by-side in a balanced modern layout that feels elegant, editorial, and globally competitive.
+
+The design should feel like a premium creative agency or modern tech startup website — clean, minimal, human-centered, and visually impressive.
+
+SECTION LAYOUT
+
+Create a two-column split section:
+
+LEFT SIDE — WHO WE WORK WITH
+
+Design this side as a premium modern content block.
+
+Small label:
+
+“WHO WE WORK WITH”
+
+Main Heading:
+
+“Built for Ambitious Brands”
+
+Supporting text:
+
+“We partner with businesses, startups, organizations, and individuals looking to build powerful digital presence and stand out in a competitive world.”
+
+Create elegant outlined cards or modern list items for:
+Small & Medium-Sized Businesses (SMEs)
+Startups & Emerging Brands
+NGOs & Impact Organizations
+Entrepreneurs & Founders
+Personal Brands & Creators
+B2B & Consumer-Focused Companies
+
+Use:
+
+outlined modern cards
+subtle hover animations
+clean icons
+soft gradients
+premium spacing
+
+At the bottom add a CTA button:
+👉 “Book a Free Consultation”
+
+RIGHT SIDE — FOUNDER PROFILE
+
+Create a premium founder spotlight card.
+
+Display:
+
+Professional founder photo
+Clean minimal presentation
+Soft glow/shadow
+Rounded corners
+Modern editorial feel
+Small label:
+
+“MEET THE FOUNDER”
+
+Heading:
+
+“Building Digital Experiences With Purpose”
+
+Description:
+
+“Solotech Digital was founded with a vision to help businesses, brands, and organizations create meaningful digital experiences through creativity, technology, and strategy.”
+
+Founder name:
+
+“Ibraheem Al Jatta”
+
+Founder title:
+
+“Founder & Creative Director”
+
+Optional quote:
+“We believe every brand deserves a digital presence that feels world-class.”
+
+Add CTA button:
+👉 “Start a Project”
+
+DESIGN STYLE
+
+The entire section should feel:
+
+Premium
+Modern
+Editorial
+Minimal luxury
+African creative-tech aesthetic
+Trustworthy and human
+
+Use:
+
+Large bold typography
+White/off-white background
+Purple and pink accent gradients
+Soft glassmorphism effects
+Clean spacing
+Thin outlined elements
+Subtle shadows
+ANIMATION REQUIREMENTS
+
+When the section enters viewport:
+
+Both sides animate smoothly from opposite directions
+Cards softly fade upward
+Founder image glows subtly
+Hover effects on cards and buttons
+Smooth micro-interactions
+RESPONSIVENESS
+
+On desktop:
+
+Perfect balanced side-by-side layout
+
+On mobile:
+
+Stack vertically
+Founder section below “Who We Work With”
+Maintain elegant spacing and readability
+IMPORTANT
+
+Avoid:
+
+Generic corporate style
+Overcrowded layout
+Heavy gradients
+Template feel
+
+The final result should look like a section from a world-class modern digital agency website.

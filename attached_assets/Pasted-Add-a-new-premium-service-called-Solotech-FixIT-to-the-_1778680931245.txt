@@ -1,0 +1,304 @@
+Add a new premium service called Solotech FixIT to the existing Solotech Digital website as both:
+
+A featured homepage section
+A dedicated subpage under Services at /services/fixit
+
+The new addition must integrate seamlessly with the existing Solotech Digital branding, UI style, typography, gradients, animations, spacing, and futuristic creative-tech aesthetic already used across the website.
+
+Do NOT create a disconnected design or generic computer repair aesthetic.
+
+The entire experience should feel like:
+👉 a modern digital support ecosystem integrated into a premium creative agency website.
+
+Maintain:
+
+existing purple/pink/deep blue gradients
+floating glowing orbs
+glassmorphism accents
+soft shadows
+premium spacing
+subtle motion graphics
+clean typography
+modern SaaS-style UI
+futuristic African creative-tech atmosphere
+UPDATE MAIN SERVICES PAGE
+
+Add a new premium service card called:
+
+“Solotech FixIT”
+Description:
+
+“Fast and reliable technical support, troubleshooting, website fixes, digital setup, and modern IT solutions for businesses and individuals.”
+
+Include:
+
+outlined modern icon
+hover glow effect
+subtle animations
+premium card styling
+
+Optional badge:
+⚡ “Fast Support”
+
+When clicked:
+👉 open /services/fixit
+
+1. HOMEPAGE FEATURED FIXIT SECTION
+
+Add a visually strong featured homepage section introducing Solotech FixIT.
+
+The section should feel:
+
+premium
+futuristic
+solution-focused
+trustworthy
+modern digital support aesthetic
+SECTION LAYOUT
+
+Create a clean split-layout design.
+
+LEFT SIDE — CONTENT
+Small Label:
+
+“SOLOTECH FIXIT”
+
+Main Heading:
+
+“Modern Tech Support & Digital Solutions”
+
+Supporting Text:
+
+“From website troubleshooting and technical support to digital setup and maintenance, Solotech FixIT helps businesses and individuals stay productive, connected, and online.”
+
+FEATURE HIGHLIGHTS
+
+Create elegant outlined feature cards or pills for:
+
+Website Fixes
+Device Support
+Digital Setup
+Technical Assistance
+
+Use:
+
+outlined icons
+subtle glow effects
+premium spacing
+hover animations
+glassmorphism accents
+CTA BUTTONS
+
+Add:
+👉 “Explore FixIT”
+👉 “Request Support”
+
+The “Explore FixIT” button should open:
+/services/fixit
+
+The “Request Support” button should open WhatsApp support.
+
+Optional small text:
+“Fast response • Reliable support • Modern solutions”
+
+RIGHT SIDE — VISUAL
+
+Create a futuristic tech-support themed visual.
+
+Options:
+
+floating support dashboard UI
+glowing circular support infographic
+animated support illustration
+abstract digital system visualization
+
+Include:
+
+floating glowing orbs
+subtle pulse animations
+glowing outlines
+soft gradients
+motion graphics
+futuristic interface feel
+
+The visual should feel:
+👉 premium, clean, digital, and modern.
+
+HOMEPAGE ANIMATIONS
+
+When entering viewport:
+
+content fades in smoothly
+feature cards animate upward
+floating orbs move subtly
+support visuals pulse softly
+buttons glow slightly on hover
+
+Use:
+
+smooth transitions
+elegant micro-interactions
+modern motion effects
+2. CREATE SUBPAGE:
+/services/fixit
+
+The page must feel:
+
+premium
+futuristic
+modern
+trustworthy
+minimal and clean
+
+The design should resemble:
+👉 a modern digital support platform integrated into a premium creative agency ecosystem.
+
+FIXIT PAGE STRUCTURE
+HERO SECTION
+
+Create a modern premium hero section with:
+
+floating glowing orbs
+animated grid background
+subtle dashboard visuals
+glassmorphism effects
+futuristic support atmosphere
+Small Label:
+
+“SOLOTECH FIXIT”
+
+Main Heading:
+
+“Modern Tech Support for Businesses & Individuals”
+
+Subtext:
+
+“We help businesses, brands, and individuals solve technical problems quickly through reliable support, troubleshooting, maintenance, and digital assistance.”
+
+CTA Buttons:
+Request Support
+Chat on WhatsApp
+
+Include subtle animated support-themed graphics.
+
+SUPPORT SERVICES SECTION
+
+Create elegant outlined cards for:
+
+Website Troubleshooting
+Website Maintenance
+Device & Software Setup
+Connectivity & Network Support
+Technical Assistance
+Digital Consultation
+
+Each card should include:
+
+premium outlined icon
+short description
+hover glow effect
+subtle animations
+glassmorphism styling
+PROCESS SECTION
+
+Create a premium 3-step support process section.
+
+Heading:
+
+“How FixIT Works”
+
+Use connected outlined icons with glowing lines.
+
+Steps:
+Tell Us the Issue
+“Describe the technical problem or support needed.”
+We Diagnose & Solve
+“Our team quickly identifies the issue and provides the right solution.”
+Stay Productive
+“Get back to work with reliable support and modern digital solutions.”
+
+Include:
+
+glowing connecting lines
+hover animations
+soft motion effects
+premium infographic style
+WHY CHOOSE FIXIT SECTION
+
+Create a trust-focused premium section.
+
+Heading:
+
+“Reliable Digital Support When You Need It”
+
+Highlight:
+
+Fast Response
+Professional Assistance
+Modern Solutions
+Business-Friendly Support
+
+Use:
+
+outlined cards
+glow accents
+floating orb backgrounds
+subtle motion graphics
+FINAL CTA SECTION
+
+Create a visually strong gradient CTA section.
+
+Include:
+
+floating glowing orbs
+glassmorphism effects
+soft pulse animations
+Heading:
+
+“Need Immediate Assistance?”
+
+Subtext:
+
+“Our team is ready to help you solve technical issues quickly and professionally.”
+
+Buttons:
+Request Support
+Chat on WhatsApp
+
+Optional small text:
+“Fast response • Reliable support • Modern solutions”
+
+DESIGN REQUIREMENTS
+
+The homepage section and subpage must:
+
+perfectly match the existing Solotech Digital website
+feel globally competitive
+remain clean and minimal
+avoid clutter
+avoid generic repair-shop visuals
+maintain premium creative-tech branding
+ANIMATIONS & INTERACTIONS
+
+Use:
+
+smooth fade-ins
+floating glowing orbs
+hover glow effects
+animated outlines
+subtle pulse effects
+elegant micro-interactions
+premium transitions
+RESPONSIVENESS
+
+Ensure:
+
+premium desktop experience
+responsive mobile layout
+stacked sections on mobile
+optimized animations
+consistent typography and spacing
+IMPORTANT
+
+The final result should make Solotech Digital feel like:
+👉 a complete creative, digital, and technology solutions ecosystem with premium modern support services.

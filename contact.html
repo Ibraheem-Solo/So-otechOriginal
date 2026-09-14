@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-root="" data-page="contact" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <script>try{var t=localStorage.getItem("solotech-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Solotech Digital LLC</title>
+  <meta name="description" content="Start a project with Solotech Digital LLC. Contact us for web design, branding, social media management, and digital marketing services in The Gambia.">
+  <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div id="site-header"></div>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <span class="glass" style="display:inline-block;padding:.4rem 1rem;border-radius:999px">Get In Touch</span>
+          <h1>Let's Build Something <span class="text-gradient">Powerful</span></h1>
+          <p>Ready to take your business to the next level? Fill out the form below and we'll get back to you within 24 hours.</p>
+        </div>
+      </section>
+      <section class="section" style="padding-top:0">
+        <div class="container contact-grid">
+          <div>
+            <div class="glass card">
+              <h2>Contact Information</h2>
+              <p class="sub" style="margin:1rem 0 .4rem">Location</p>
+              <p>Banjul, The Gambia</p>
+              <p class="sub" style="margin:1rem 0 .4rem">Email</p>
+              <p><a href="mailto:info@solotechdigital.com">info@solotechdigital.com</a></p>
+              <p class="sub" style="margin:1rem 0 .4rem">Phone</p>
+              <p><a href="tel:+2207532757">+220 753 2757</a></p>
+              <p class="sub" style="margin:1rem 0 .4rem">WhatsApp</p>
+              <p><a href="https://wa.me/2207532757" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp</a></p>
+            </div>
+            <a class="glass card" style="display:block;margin-top:1rem" href="https://wa.me/2207532757" target="_blank" rel="noopener noreferrer">
+              <strong>Chat on WhatsApp</strong>
+              <p class="sub">Typically replies within minutes</p>
+            </a>
+          </div>
+          <div class="glass card">
+            <div id="contact-success" hidden class="success-box">
+              <h3>Message Sent!</h3>
+              <p class="sub">Thank you for reaching out. We'll get back to you within 24 hours. WhatsApp should have opened with your enquiry.</p>
+            </div>
+            <form id="contact-form" class="form" novalidate>
+              <h2>Start a Project</h2>
+              <div class="form-row">
+                <div class="field" id="f-name">
+                  <label for="name">Full Name</label>
+                  <input id="name" name="name" placeholder="Ousman Jallow" required>
+                  <div class="error">Name must be at least 2 characters</div>
+                </div>
+                <div class="field" id="f-email">
+                  <label for="email">Email Address</label>
+                  <input id="email" name="email" type="email" placeholder="ousman@yourbusiness.com" required>
+                  <div class="error">Please enter a valid email address</div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="field" id="f-service">
+                  <label for="service">Service Needed</label>
+                  <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option>Web Design &amp; Development</option>
+                    <option>Branding &amp; Graphic Design</option>
+                    <option>Social Media Management</option>
+                    <option>Photography &amp; Videography</option>
+                    <option>Digital Marketing</option>
+                    <option>Solotech LaunchPad</option>
+                    <option>Other / Multiple Services</option>
+                  </select>
+                  <div class="error">Please select a service</div>
+                </div>
+                <div class="field" id="f-budget">
+                  <label for="budget">Budget Range</label>
+                  <select id="budget" name="budget" required>
+                    <option value="">Select your budget</option>
+                    <option>Under D5,000</option>
+                    <option>D5,000 – D15,000</option>
+                    <option>D15,000 – D30,000</option>
+                    <option>D30,000 – D60,000</option>
+                    <option>D60,000+</option>
+                    <option>Not sure yet</option>
+                  </select>
+                  <div class="error">Please select a budget range</div>
+                </div>
+              </div>
+              <div class="field">
+                <label for="phone">Phone / WhatsApp (optional)</label>
+                <input id="phone" name="phone" placeholder="+220 XXX XXXX">
+              </div>
+              <div class="field" id="f-message">
+                <label for="message">Tell Us About Your Project</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us what you need, your goals, timeline, and any other relevant details..." required></textarea>
+                <div class="error">Please tell us a bit more about your project (min 20 characters)</div>
+              </div>
+              <button class="btn btn-primary btn-full" type="submit">Send Message</button>
+              <p class="sub" style="text-align:center">We'll Reply in 24hrs</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+  </div>
+  <script src="js/main.js"></script>
+  <script src="js/pages.js"></script>
+</body>
+</html>

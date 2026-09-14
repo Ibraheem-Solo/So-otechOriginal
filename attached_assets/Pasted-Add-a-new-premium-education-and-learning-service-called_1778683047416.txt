@@ -1,0 +1,310 @@
+Add a new premium education and learning service called Solotech Academy to the existing Solotech Digital website.
+
+Solotech Academy should be positioned as:
+👉 a modern digital learning platform focused on creative and technology skills for the next generation.
+
+The Academy must integrate seamlessly into the existing Solotech Digital ecosystem and match the current:
+
+branding
+typography
+gradients
+animations
+spacing
+glassmorphism effects
+floating glowing orbs
+modern SaaS-style UI
+futuristic African creative-tech aesthetic
+
+Do NOT make it feel like:
+
+a traditional school website
+a generic online course platform
+a basic LMS dashboard
+
+Instead, it should feel like:
+👉 a premium creative-tech academy built for modern digital skills and innovation.
+
+WEBSITE INTEGRATION
+
+Add:
+
+“Academy” to the main navigation
+a featured homepage section
+a dedicated Academy page
+
+Suggested URL:
+👉 /academy
+
+HOMEPAGE FEATURED SECTION
+
+Create a premium split-layout featured section introducing Solotech Academy.
+
+The section should feel:
+
+inspiring
+modern
+educational
+futuristic
+creative-tech focused
+LEFT SIDE — CONTENT
+Small Label:
+
+“SOLOTECH ACADEMY”
+
+Main Heading:
+
+“Learn Digital Skills for the Future”
+
+Supporting Text:
+
+“Solotech Academy empowers students, creators, and future innovators with practical digital skills in coding, design, marketing, AI tools, multimedia, and content creation.”
+
+COURSE HIGHLIGHTS
+
+Create elegant outlined cards or feature pills for:
+
+Coding & Web Development
+WordPress & Website Design
+AI Tools & Productivity
+Digital Marketing
+Branding & Graphic Design
+Content Creation & Photography
+
+Use:
+
+outlined icons
+subtle glow effects
+hover animations
+premium minimal styling
+glassmorphism accents
+CTA BUTTONS
+
+Add:
+👉 “Explore Academy”
+👉 “Enroll Now”
+
+Optional small text:
+“Practical skills • Creative learning • Future-ready training”
+
+The “Explore Academy” button should open:
+/academy
+
+RIGHT SIDE — VISUAL
+
+Create a futuristic education-themed visual.
+
+Options:
+
+floating digital classroom UI
+modern learning dashboard
+animated creative-tech workspace
+holographic course interface
+abstract digital learning system
+
+Include:
+
+floating glowing orbs
+animated gradients
+subtle pulse effects
+glowing outline graphics
+modern educational visuals
+
+The visual should feel:
+👉 premium, innovative, inspiring, and future-focused.
+
+HOMEPAGE ANIMATIONS
+
+When entering viewport:
+
+content fades in smoothly
+course cards animate upward
+floating orbs move subtly
+dashboard visuals pulse softly
+buttons glow slightly on hover
+
+Use:
+
+elegant transitions
+smooth micro-interactions
+modern motion effects
+CREATE DEDICATED PAGE:
+/academy
+
+The page should feel:
+
+premium
+innovative
+modern
+inspiring
+globally competitive
+creative-tech focused
+
+The design should resemble:
+👉 a modern digital innovation academy for creators, entrepreneurs, and future tech professionals.
+
+ACADEMY PAGE STRUCTURE
+HERO SECTION
+
+Create a visually stunning hero section with:
+
+animated digital learning graphics
+floating glowing orbs
+glassmorphism UI
+futuristic workspace visuals
+subtle grid backgrounds
+Small Label:
+
+“SOLOTECH ACADEMY”
+
+Main Heading:
+
+“Digital Skills for the Next Generation”
+
+Subtext:
+
+“Learn practical creative and technology skills designed to help students, entrepreneurs, and creators thrive in the modern digital world.”
+
+CTA BUTTONS:
+Explore Programs
+Enroll Today
+
+Optional small text:
+“Learn • Create • Innovate”
+
+PROGRAMS SECTION
+
+Create premium outlined course cards for:
+
+Coding & Web Development
+
+Learn HTML, CSS, JavaScript, and modern website creation.
+
+WordPress & Website Design
+
+Build professional websites without coding.
+
+AI Tools & Digital Productivity
+
+Learn modern AI tools for content, design, automation, and productivity.
+
+Digital Marketing
+
+Social media marketing, ads, branding, and online growth strategies.
+
+Branding & Graphic Design
+
+Logo design, visual identity, and modern branding systems.
+
+Content Creation & Photography
+
+Photography, videography, editing, storytelling, and creative production.
+
+Each card should include:
+
+modern icon
+short description
+hover glow effect
+subtle animations
+outlined premium styling
+LEARNING EXPERIENCE SECTION
+Heading:
+
+“Practical Learning for Real-World Skills”
+
+Highlight:
+
+Hands-on Training
+Project-Based Learning
+Creative Mentorship
+Modern Digital Tools
+Beginner-Friendly Environment
+Industry-Relevant Skills
+
+Use:
+
+connected icons
+floating gradients
+soft motion effects
+premium infographic styling
+WHO CAN JOIN SECTION
+Heading:
+
+“Built for Future Creators & Innovators”
+
+Create elegant cards for:
+
+Students
+Entrepreneurs
+Creators
+Freelancers
+Small Business Owners
+Beginners in Tech & Digital Skills
+GALLERY / CREATIVE SHOWCASE SECTION
+
+Create a visually rich showcase featuring:
+
+students learning
+laptops/workspaces
+creative production
+photography sessions
+digital classes
+design projects
+
+Use:
+
+modern masonry grid
+hover animations
+premium presentation
+FINAL CTA SECTION
+
+Create a premium gradient CTA section.
+
+Heading:
+
+“Start Your Digital Journey Today”
+
+Subtext:
+
+“Join Solotech Academy and gain the skills to create, innovate, and succeed in the digital world.”
+
+CTA BUTTONS:
+Enroll Now
+Contact Academy
+
+Optional small text:
+“Creative learning • Modern skills • Future opportunities”
+
+DESIGN REQUIREMENTS
+
+The Academy section and page must:
+
+perfectly match the Solotech Digital website
+feel globally competitive
+remain minimal and premium
+avoid clutter
+avoid traditional school aesthetics
+maintain modern creative-tech identity
+ANIMATIONS & INTERACTIONS
+
+Use:
+
+smooth fade-ins
+floating glowing orbs
+animated gradients
+subtle pulse effects
+hover glow animations
+elegant micro-interactions
+modern transitions
+RESPONSIVENESS
+
+Ensure:
+
+premium desktop experience
+responsive mobile layouts
+optimized animations
+clean typography hierarchy
+consistent spacing
+IMPORTANT
+
+The final result should make Solotech Digital feel like:
+👉 a complete creative, digital, technology, education, and innovation ecosystem.

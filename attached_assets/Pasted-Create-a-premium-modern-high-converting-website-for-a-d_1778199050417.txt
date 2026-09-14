@@ -1,0 +1,239 @@
+Create a premium, modern, high-converting website for a digital agency called Solotech Digital LLC, based in The Gambia. The agency specializes in:
+
+Web Design & Development
+Branding & Graphic Design
+Multimedia Production (photo, video, drone)
+Social Media Management
+Digital Marketing
+
+The website should feel like a world-class creative agency — clean, futuristic, minimal, elegant, and conversion-focused. The design aesthetic should combine:
+
+Apple-style minimalism
+Modern SaaS landing page structure
+Soft gradients (purple, pink, deep blue accents)
+Glassmorphism and subtle 3D visuals
+Smooth animations and hover effects
+Large bold typography
+Premium whitespace and spacing
+Mobile-first fully responsive design
+Fast-loading and SEO-friendly structure
+
+The website must NOT feel like a generic template. It should feel premium, trustworthy, and designed for ambitious brands.
+
+WEBSITE STRUCTURE
+
+Create a complete multi-page website with these pages:
+
+Home
+About
+Services
+Our Work / Portfolio
+Contact
+
+Include a sticky navigation bar with:
+
+Logo
+Home
+About
+Services
+Work
+Contact
+Primary CTA button: “Start a Project”
+
+Add smooth scrolling and subtle page transitions.
+
+HOME PAGE
+HERO SECTION
+
+Create a stunning hero section with:
+
+Bold typography
+Modern agency visual
+Professional African creative-tech feel
+
+Headline:
+“We Build Digital Experiences That Drive Growth”
+
+Subheadline:
+“Solotech Digital designs websites, brands, and digital content that help businesses stand out, attract customers, and grow online.”
+
+Buttons:
+
+Start a Project
+View Our Work
+
+Also include a smaller highlighted quick-offer CTA:
+⚡ “Launch Your Website in 24 Hours”
+
+Include:
+
+120+ Projects
+40+ Happy Clients
+5★ Client Rating
+
+Use a modern visual or 3D-style image/illustration representing creativity, technology, and African innovation.
+
+FEATURED OFFER SECTION (IMPORTANT)
+
+Add a dedicated section promoting a fast website service called:
+
+“Solotech LaunchPad”
+
+Short text:
+“Need a professional website fast? We build clean, modern business websites in just 24 hours.”
+
+Create two pricing cards:
+
+Starter Package — D5,000
+1-page professional website
+Mobile responsive
+Delivered in 24 hours
+Perfect for startups & small businesses
+Pro Package — D18,000/year
+Custom domain included
+Multi-page premium website
+Copywriting & branding assistance
+WhatsApp integration
+Ongoing support & edits
+
+Add CTA buttons:
+
+Get Started
+Learn More
+
+This section should feel like a premium featured product, not cheap.
+
+SERVICES SECTION
+
+Create modern service cards with icons and hover animations.
+
+Services:
+
+Web Development
+Branding & Design
+Social Media Management
+Photography & Videography
+Digital Marketing
+
+Each service description should focus on business benefits and results, not generic text.
+
+Example:
+“Websites designed to convert visitors into paying customers.”
+
+PORTFOLIO SECTION
+
+Create a visually impressive portfolio grid with premium project cards.
+
+Showcase:
+
+Business websites
+NGO websites
+Brand identity projects
+Social media campaigns
+
+Each project card should include:
+
+Image preview
+Category
+Short description
+Hover animation
+
+Add a “View All Projects” button.
+
+WHY CHOOSE US SECTION
+
+Create a premium trust-building section with 4 highlights:
+
+Fast Delivery
+Creative Excellence
+Affordable Professional Solutions
+Built for African Businesses
+
+Use clean icons and minimal design.
+
+TESTIMONIALS SECTION
+
+Create elegant testimonial cards with:
+
+Client name
+Position/company
+Short believable reviews
+
+Example:
+“Solotech delivered our website in record time. Clean, modern, and professional.”
+
+Avoid fake-sounding AI testimonials.
+
+FINAL CTA SECTION
+
+Create a bold premium gradient section.
+
+Headline:
+“Ready to Grow Your Business Online?”
+
+Subtext:
+“Let’s build something powerful together.”
+
+Buttons:
+
+Start a Project
+Launch My Website
+ABOUT PAGE
+
+Include:
+
+Agency story
+Mission
+Vision
+Core values
+Creative African identity
+Team section
+
+Tone:
+Professional, creative, innovative, trustworthy.
+
+SERVICES PAGE
+
+Detailed service breakdowns with:
+
+Benefits
+Process
+Deliverables
+CTA buttons
+
+Include visually appealing layouts and sections.
+
+CONTACT PAGE
+
+Create a modern contact page with:
+
+Contact form
+WhatsApp integration
+Email
+Phone number
+Location: The Gambia
+Social media links
+
+Add a floating WhatsApp button across the entire website.
+
+DESIGN REQUIREMENTS
+Premium UI/UX
+Minimal but visually rich
+Soft shadows and glassmorphism
+Smooth transitions
+Consistent typography
+Clean spacing
+No clutter
+No unnecessary search bars
+Strong conversion-focused CTAs
+Mobile responsiveness is critical
+BRAND FEELING
+
+The website should feel like:
+
+A next-generation African digital agency
+Premium but approachable
+Creative but professional
+Modern and memorable
+
+The final result should look like a real high-end agency website capable of attracting premium clients and converting visitors into leads.
