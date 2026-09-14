@@ -132,37 +132,24 @@ h1, h2, h3, h4 {
   z-index: 0;
 }
 .service-block:nth-child(odd)::before {
-  background: linear-gradient(
-    65deg,
-    rgba(var(--purple-rgb), 0) 0%,
-    rgba(var(--purple-rgb), 0) 28%,
-    rgba(var(--purple-rgb), 0.05) 45%,
-    rgba(var(--purple-rgb), 0.14) 68%,
-    rgba(var(--purple-rgb), 0.36) 100%
+  background: radial-gradient(
+    85% 130% at 92% 48%,
+    rgba(var(--purple-rgb), 0.34) 0%,
+    rgba(var(--purple-rgb), 0.16) 32%,
+    rgba(var(--purple-rgb), 0.05) 58%,
+    rgba(var(--purple-rgb), 0) 78%
   );
 }
 .service-block:nth-child(even)::before {
-  background: linear-gradient(
-    65deg,
-    rgba(var(--purple-rgb), 0.36) 0%,
-    rgba(var(--purple-rgb), 0.14) 28%,
-    rgba(var(--purple-rgb), 0.05) 45%,
-    rgba(var(--purple-rgb), 0) 72%,
-    rgba(var(--purple-rgb), 0) 100%
+  background: radial-gradient(
+    85% 130% at 8% 48%,
+    rgba(var(--purple-rgb), 0.34) 0%,
+    rgba(var(--purple-rgb), 0.16) 32%,
+    rgba(var(--purple-rgb), 0.05) 58%,
+    rgba(var(--purple-rgb), 0) 78%
   );
 }
-.service-block::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 38%;
-  pointer-events: none;
-  z-index: 0;
-  background: linear-gradient(180deg, rgba(var(--purple-rgb), 0.12), rgba(var(--purple-rgb), 0) 70%);
-}
-.service-block:nth-child(odd)::after { right: 0; left: auto; }
-.service-block:nth-child(even)::after { left: 0; right: auto; }
+.service-block::after { display: none; }
 .service-block > * { position: relative; z-index: 1; }
 .service-block h2 { margin-bottom: 0.5rem; }
 .service-block .sub { margin-bottom: 0.35rem; }
@@ -594,22 +581,27 @@ footer ul a:hover { color: var(--fg); }
   overflow: hidden;
   border: 0;
   box-shadow: none;
-  background: var(--card);
+  background: var(--card-border);
 }
 .cta-frame::before {
   content: "";
   position: absolute;
   z-index: 0;
-  inset: -55%;
+  top: 50%;
+  left: 50%;
+  width: 160%;
+  height: 160%;
+  translate: -50% -50%;
   background: conic-gradient(
     from 0deg,
-    var(--purple) 0%,
-    var(--accent) 22%,
-    var(--purple) 48%,
-    var(--accent) 74%,
-    var(--purple) 100%
+    transparent 0deg,
+    transparent 312deg,
+    rgba(var(--purple-rgb), 0) 328deg,
+    var(--purple) 342deg,
+    var(--accent) 352deg,
+    var(--purple) 360deg
   );
-  animation: cta-stroke 7s linear infinite;
+  animation: cta-stroke 5.5s linear infinite;
 }
 .cta-spin { display: none; }
 .cta-inner {
