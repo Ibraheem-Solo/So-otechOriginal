@@ -95,7 +95,7 @@
       <footer class="site">
         <div class="container footer-grid">
           <div class="footer-brand">
-            <img src="${root}public/logo.png" alt="Solotech Digital">
+            <a class="footer-logo" href="${href("index.html")}"><img src="${root}public/logo.png" alt="Solotech Digital"></a>
             <p>Solotech Digital is a next-generation creative agency based in The Gambia. We build digital experiences that drive growth for ambitious African businesses.</p>
             ${socials}
           </div>
@@ -247,4 +247,23 @@
   window.waLink = function (msg) {
     return "https://wa.me/2207532757?text=" + encodeURIComponent(msg);
   };
+
+  function markLoaded(img) {
+    img.classList.add("is-loaded");
+  }
+  document.querySelectorAll("img").forEach(function (img) {
+    if (img.closest(".brand") || img.closest(".footer-brand")) return;
+    img.classList.add("img-reveal");
+    const hero = img.closest(".hero-visual");
+    if (!img.hasAttribute("loading")) {
+      img.setAttribute("loading", hero ? "eager" : "lazy");
+    }
+    img.setAttribute("decoding", "async");
+    if (hero) img.setAttribute("fetchpriority", "high");
+    if (img.complete && img.naturalWidth > 0) markLoaded(img);
+    else {
+      img.addEventListener("load", function () { markLoaded(img); });
+      img.addEventListener("error", function () { markLoaded(img); });
+    }
+  });
 })();
