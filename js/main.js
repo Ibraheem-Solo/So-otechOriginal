@@ -74,7 +74,7 @@
       </div>
       <header class="site" id="header">
         <div class="nav-row">
-          <div class="brand"><a href="${href("index.html")}"><img src="${root}public/logo.png" alt="Solotech Digital"></a></div>
+          <div class="brand"><a href="${href("index.html")}"><img class="logo-light" src="${root}public/logo.png" alt="Solotech Digital"><img class="logo-dark" src="${root}public/logo-dark.png" alt="Solotech Digital"></a></div>
           <nav class="desktop">${nav.map(([l, f]) => `<a href="${href(f)}" class="${isActive(f) ? "active" : ""}">${l}</a>`).join("")}</nav>
           <div class="nav-right">
             <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark mode">${icon.sun}${icon.moon}</button>

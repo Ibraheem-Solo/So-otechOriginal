@@ -244,6 +244,9 @@ header.site.scrolled { padding: calc(0.55rem + 10px) 0; }
   width: auto;
   filter: var(--logo-invert);
 }
+.nav-row .brand .logo-dark { display: none; }
+[data-theme="dark"] .nav-row .brand .logo-light { display: none; }
+[data-theme="dark"] .nav-row .brand .logo-dark { display: block; }
 nav.desktop { display: none; gap: 0.15rem; align-self: stretch; align-items: stretch; margin-block: calc(-0.7rem - 10px); }
 nav.desktop a {
   position: relative;
