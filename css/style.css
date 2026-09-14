@@ -33,7 +33,8 @@
   --footer-logo-color: #efe2f7;
   --hero-shadow: drop-shadow(0 28px 36px rgba(0, 0, 0, 0.42));
   --marquee-fade: var(--bg);
-  --radius: 0.7rem;
+  --radius: 12px;
+  --radius-lg: 20px;
   --font: Inter, "Segoe UI", system-ui, sans-serif;
   --heading: Francy, Inter, system-ui, sans-serif;
 }
@@ -115,14 +116,77 @@ h1, h2, h3, h4 {
 }
 .glass { border-radius: var(--radius); }
 .service-block {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
   padding: 2.5rem 2.6rem 2.6rem;
-  border-radius: var(--radius);
+  border-radius: var(--radius-lg);
 }
+.service-block::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(
+    65deg,
+    color-mix(in srgb, var(--purple) 34%, transparent) 0%,
+    color-mix(in srgb, var(--purple) 12%, transparent) 28%,
+    transparent 58%
+  );
+}
+.service-block::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08),
+    transparent 42%
+  );
+  mix-blend-mode: soft-light;
+}
+.service-block > * { position: relative; z-index: 1; }
 .service-block h2 { margin-bottom: 0.5rem; }
 .service-block .sub { margin-bottom: 0.35rem; }
 .service-block .svc-cols { margin-top: 1.75rem; padding-top: 1.6rem; border-top: 1px solid var(--line); }
 .service-block .svc-cols > div { padding-right: 1rem; }
 .service-block .hero-actions { margin-top: 1.75rem; }
+
+.services-hero {
+  position: relative;
+  overflow: hidden;
+}
+.services-hero::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: -8%;
+  width: min(520px, 70%);
+  height: 140%;
+  pointer-events: none;
+  background: linear-gradient(
+    65deg,
+    transparent 18%,
+    color-mix(in srgb, var(--purple) 22%, transparent) 48%,
+    color-mix(in srgb, var(--purple) 8%, transparent) 78%
+  );
+}
+.services-hero .container { position: relative; z-index: 1; }
+
+[data-theme="light"] .service-block::before {
+  background: linear-gradient(
+    65deg,
+    color-mix(in srgb, var(--purple) 16%, transparent) 0%,
+    color-mix(in srgb, var(--purple) 6%, transparent) 30%,
+    transparent 58%
+  );
+}
 
 .text-gradient {
   color: var(--accent);
@@ -472,7 +536,7 @@ footer ul a:hover { color: var(--fg); }
   margin-bottom: 0.85rem;
   font-size: 0.9rem;
 }
-.price-card { border-radius: 0.9rem; padding: 1.5rem; }
+.price-card { border-radius: var(--radius-lg); padding: 1.5rem; }
 .price-card.starter { background: var(--card); }
 .price-card.pro {
   background: var(--purple);
@@ -538,13 +602,13 @@ footer ul a:hover { color: var(--fg); }
 .node.b { bottom: 4px; left: 50%; transform: translateX(-50%); }
 .node.l { top: 50%; left: 4px; transform: translateY(-50%); }
 
-.founder-card { border-radius: var(--radius); overflow: hidden; }
+.founder-card { border-radius: var(--radius-lg); overflow: hidden; }
 .quote { border-left: 2px solid var(--accent); padding-left: 0.85rem; font-style: italic; color: var(--muted); }
 
-.cta-frame { position: relative; border-radius: var(--radius); padding: 0; overflow: hidden; box-shadow: none; border: 1px solid var(--card-border); }
+.cta-frame { position: relative; border-radius: var(--radius-lg); padding: 0; overflow: hidden; box-shadow: none; border: 1px solid var(--card-border); }
 .cta-spin { display: none; }
 .cta-inner {
-  position: relative; z-index: 1; border-radius: var(--radius); overflow: hidden;
+  position: relative; z-index: 1; border-radius: var(--radius-lg); overflow: hidden;
   padding: 2.75rem 2rem 2.9rem; text-align: left;
   background: var(--card);
 }
