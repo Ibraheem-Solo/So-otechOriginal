@@ -385,11 +385,12 @@ footer ul a:hover { color: var(--fg); }
 
 .hero {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
   padding: 1.25rem 0 0;
   min-height: unset;
 }
-.hero-grid { display: grid; gap: 1.5rem; align-items: stretch; min-height: unset; }
+.hero-grid { display: grid; gap: 1.5rem; align-items: stretch; min-height: unset; position: relative; z-index: 1; }
 .hero .reveal { align-self: center; padding: 0; }
 .hero h1 { font-size: clamp(2.15rem, 4.6vw, 3.35rem); margin: 0.9rem 0 0.9rem; }
 .hero .lead { font-size: 1.02rem; color: var(--muted); max-width: 34rem; margin-bottom: 0; line-height: 1.65; }
@@ -407,6 +408,7 @@ footer ul a:hover { color: var(--fg); }
 .hero-visual {
   display: none;
   position: relative;
+  z-index: 1;
   min-height: 640px;
   overflow: hidden;
   align-self: stretch;
@@ -617,10 +619,109 @@ footer ul a:hover { color: var(--fg); }
   .cta-frame::before { animation: none; }
 }
 
-.page-hero { text-align: left; padding: 45px 0 65px; }
+.page-hero { text-align: left; padding: 45px 0 65px; position: relative; isolation: isolate; overflow: hidden; }
 .page-hero h1 { font-size: clamp(2rem, 4.4vw, 3rem); margin: 0.7rem 0 0.7rem; }
 .page-hero p { color: var(--muted); font-size: 1.02rem; max-width: 38rem; margin: 0; }
-.page-hero .container { text-align: left; }
+.page-hero .container { text-align: left; position: relative; z-index: 1; }
+
+.hero::before,
+.hero::after,
+.page-hero::before,
+.page-hero::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  background-repeat: no-repeat;
+  mix-blend-mode: screen;
+}
+.hero::before,
+.page-hero::before {
+  right: 0;
+  top: -8%;
+  width: min(520px, 70vw);
+  height: min(640px, 108%);
+  background-image: url("../public/hero-orb-violet.png");
+  background-size: auto 135%;
+  background-position: 72% 18%;
+  opacity: 0.58;
+  filter: saturate(1.2) hue-rotate(-16deg) brightness(1.14);
+  -webkit-mask-image: radial-gradient(ellipse 75% 70% at 78% 32%, #000 30%, transparent 78%);
+  mask-image: radial-gradient(ellipse 75% 70% at 78% 32%, #000 30%, transparent 78%);
+}
+.hero::after,
+.page-hero::after {
+  left: 0;
+  bottom: -10%;
+  width: min(460px, 62vw);
+  height: min(420px, 70%);
+  background-image: url("../public/hero-orb-lime.png");
+  background-size: auto 130%;
+  background-position: 8% 8%;
+  opacity: 0.38;
+  filter: saturate(1.08) hue-rotate(22deg) brightness(1.08);
+  -webkit-mask-image: radial-gradient(ellipse 70% 62% at 8% 100%, #000 22%, transparent 70%);
+  mask-image: radial-gradient(ellipse 70% 62% at 8% 100%, #000 22%, transparent 70%);
+}
+.page-hero::before {
+  width: min(440px, 58vw);
+  height: 130%;
+  top: -28%;
+  right: 0;
+  opacity: 0.5;
+  background-position: 80% 22%;
+}
+.page-hero::after {
+  width: min(380px, 52vw);
+  height: 120%;
+  bottom: -24%;
+  opacity: 0.36;
+}
+@media (min-width: 900px) {
+  .hero::before {
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    opacity: 0.62;
+    background-size: auto 145%;
+    background-position: 68% 12%;
+  }
+  .hero::after {
+    left: 0;
+    bottom: 0;
+    width: 42%;
+    height: 78%;
+    opacity: 0.4;
+  }
+  .page-hero::before {
+    width: min(480px, 40vw);
+    height: 140%;
+  }
+  .page-hero::after {
+    width: min(400px, 34vw);
+    height: 130%;
+  }
+}
+[data-theme="light"] .hero::before,
+[data-theme="light"] .hero::after,
+[data-theme="light"] .page-hero::before,
+[data-theme="light"] .page-hero::after {
+  mix-blend-mode: multiply;
+  filter: saturate(1.05) hue-rotate(-6deg);
+}
+[data-theme="light"] .hero::before,
+[data-theme="light"] .page-hero::before {
+  opacity: 0.3;
+}
+[data-theme="light"] .hero::after,
+[data-theme="light"] .page-hero::after {
+  opacity: 0.22;
+}
+@media (min-width: 900px) {
+  [data-theme="light"] .hero::before { opacity: 0.46; }
+  [data-theme="light"] .hero::after { opacity: 0.38; }
+}
 .page-hero .hero-actions { margin-top: 1.75rem; }
 .cta-inner .hero-actions { margin-top: 1.75rem; justify-content: flex-start; }
 .actions-under { margin-top: 1.75rem; }
