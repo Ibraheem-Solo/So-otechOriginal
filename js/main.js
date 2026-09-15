@@ -266,4 +266,16 @@
       img.addEventListener("error", function () { markLoaded(img); });
     }
   });
+
+  const storyVisual = document.querySelector(".story-visual");
+  if (storyVisual && "IntersectionObserver" in window) {
+    const storyIo = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-in");
+        storyIo.unobserve(entry.target);
+      });
+    }, { threshold: 0.28, rootMargin: "0px 0px -8% 0px" });
+    storyIo.observe(storyVisual);
+  }
 })();
