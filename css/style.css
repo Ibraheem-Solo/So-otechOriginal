@@ -299,6 +299,30 @@ h1, h2, h3, h4 {
   align-content: start;
   margin-top: 2.5rem;
 }
+.academy-stack {
+  position: relative;
+  display: block;
+  grid-template-columns: 1fr;
+  padding-bottom: 3rem;
+}
+.academy-skills.academy-stack {
+  display: block;
+}
+.academy-stack > * {
+  --peek: 3.05rem;
+  --stick: 5.35rem;
+  position: sticky;
+  top: calc(var(--stick) + (var(--i, 1) - 1) * var(--peek));
+  z-index: calc(1 + var(--i, 1));
+  width: 100%;
+  margin: 0;
+}
+.academy-stack .academy-skill {
+  min-height: 4.85rem;
+}
+.split:has(.academy-stack) {
+  align-items: start;
+}
 .academy-skill {
   display: flex;
   align-items: center;
@@ -848,6 +872,118 @@ footer ul a:hover { color: var(--fg); }
 .work-card img { width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform 0.4s; }
 .work-card:hover img { transform: scale(1.03); }
 .work-card .body { padding: 1rem 1.1rem 1.15rem; }
+.work-showcase .section-head { margin-bottom: 2.25rem; }
+.work-stage { display: grid; gap: 2rem; }
+.work-info { display: none; }
+.work-info-cat {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.85rem;
+}
+.work-info-num {
+  font-family: var(--heading);
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 1.15rem;
+}
+.work-info-client {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+.work-info-title {
+  font-size: clamp(1.7rem, 3vw, 2.55rem);
+  line-height: 1.12;
+  margin-bottom: 0.9rem;
+  max-width: 16ch;
+}
+.work-info-desc { max-width: 28rem; margin-bottom: 1.35rem; }
+.work-info-link {
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+.work-info-inner {
+  transition: opacity 0.42s ease, transform 0.42s ease;
+}
+.work-info-inner.is-out {
+  opacity: 0;
+  transform: translateY(10px);
+}
+.work-gallery { display: grid; gap: 3.25rem; }
+.work-pair {
+  position: relative;
+  isolation: isolate;
+}
+.work-shot {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--radius-lg);
+  background: var(--bg-2);
+  box-shadow: 0 18px 40px rgba(12, 10, 18, 0.22);
+}
+.work-shot-b { display: none; }
+.work-visual-copy { padding: 1.05rem 0.15rem 0; }
+.work-visual-copy h3 { margin: 0.2rem 0 0.55rem; font-size: 1.35rem; }
+.work-visual-copy a {
+  display: inline-block;
+  margin-top: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+.work-visual-num { font-size: 0.82rem; color: var(--muted); margin: 0.2rem 0 0.65rem; }
+.work-showcase-cta { margin-top: 2.4rem; }
+@media (min-width: 960px) {
+  .work-stage {
+    grid-template-columns: minmax(16.5rem, 0.82fr) minmax(22rem, 1.18fr);
+    gap: 3rem 4.25rem;
+    align-items: start;
+  }
+  .work-info {
+    display: block;
+    position: sticky;
+    top: max(7.1rem, calc(50svh - 11.5rem));
+    align-self: start;
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+  }
+  .work-visual-copy { display: none; }
+  .work-gallery {
+    gap: 6.5rem;
+    padding-bottom: 22vh;
+  }
+  .work-pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    min-height: 0;
+    padding: 0;
+  }
+  .work-shot {
+    position: static;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+  }
+  .work-shot-a {
+    margin-top: 50%;
+  }
+  .work-shot-b {
+    display: block;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .work-info-inner { transition: none; }
+  .work-info-inner.is-out { transform: none; opacity: 1; }
+}
 .tag {
   position: absolute; top: 0.7rem; left: 0.7rem;
   padding: 0.2rem 0.55rem; border-radius: 999px; font-size: 0.68rem; font-weight: 600;
@@ -1419,6 +1555,10 @@ img.img-reveal.is-loaded {
     min-height: 0;
     align-self: stretch;
     margin: 0.7rem 0.7rem 0.7rem 0;
+  }
+  .academy-stack > * {
+    --stick: 6.05rem;
+    --peek: 3.15rem;
   }
   .cta-inner { padding: 3rem 2.5rem; }
   .story-visual { padding: 0.7rem 0.85rem 0.85rem; }
